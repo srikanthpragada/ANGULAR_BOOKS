@@ -1,0 +1,10 @@
+<h2>Update Book</h2>
+<form (ngSubmit)="updateBook()" #bookForm="ngForm">
+    Book Title <br>
+    <input name="Title" [(ngModel)]="book.Title" #title="ngModel" required>
+    <p></p>
+    Book Price <br>
+    <input name="Price" [(ngModel)]="book.Price" #price="ngModel" required>
+    <p></p>
+    <button [disabled]="bookForm.invalid">Update Book </button>
+</form>

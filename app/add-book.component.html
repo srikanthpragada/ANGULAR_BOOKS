@@ -1,0 +1,20 @@
+<head>
+    <title>Add Book</title>
+</head>
+
+<body>
+    <h2>Add Book</h2>
+    <form (ngSubmit)="addBook()" #bookForm="ngForm">
+        Book Title <br>
+        <input name="Title" [(ngModel)]="book.Title" #title="ngModel" required>
+        <p></p>
+        Book Price <br>
+        <input name="Price" [(ngModel)]="book.Price" #price="ngModel" required>
+        <p></p>
+        <button [disabled]="bookForm.invalid">Add Book </button>
+    </form>
+
+
+    <h3 *ngIf="added && done">Book has been added successfully!</h3>
+    <h3 *ngIf="!added && done">Book was not added due to some error!!</h3>
+</body>
