@@ -1,2 +1,2 @@
 # ANGULAR_BOOKS
-Books application that accesses http://test.srikanthpragada.com/api/book to retrieve and manipulate books
+Books application that accesses http://test.srikanthpragada.com/api/books to retrieve and manipulate books
