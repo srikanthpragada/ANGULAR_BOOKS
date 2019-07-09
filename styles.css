@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family : verdana;
+    font-size: 12pt;
+}
+
+.banner {
+    background-color:black;
+    color:yellow;
+    padding:5px;
+    font-family: Arial;
+    font-size:20pt;
+    font-weight:bold;
+}
+.menubar {
+    background-color : brown ;
+    padding: 5pt;
+}
+
+a {
+    color:white;
+}
+.tabheader{
+
+    background-color: blue;
+    color :white;
+    font-weight: bold;
+}
